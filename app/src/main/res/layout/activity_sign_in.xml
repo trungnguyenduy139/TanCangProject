@@ -35,7 +35,7 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp">
                 <android.support.design.widget.TextInputEditText
-                    android:id="@+id/input_email"
+                    android:id="@+id/etUserName"
                     android:layout_width="match_parent"
                     android:textColorHint="#000"
                     android:textSize="18sp"
@@ -53,7 +53,7 @@
                 app:passwordToggleEnabled="true"
                 android:layout_marginBottom="8dp">
                 <android.support.design.widget.TextInputEditText
-                    android:id="@+id/input_password"
+                    android:id="@+id/etPassword"
                     android:layout_width="match_parent"
                     android:textColorHint="#000"
                     android:password="true"
@@ -71,7 +71,7 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp">
                 <android.support.design.widget.TextInputEditText
-                    android:id="@+id/input_container"
+                    android:id="@+id/etContainerType"
                     android:layout_width="match_parent"
                     android:textColorHint="#000"
                     android:layout_height="wrap_content"
