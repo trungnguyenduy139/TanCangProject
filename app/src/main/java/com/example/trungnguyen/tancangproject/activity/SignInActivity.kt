@@ -1,9 +1,9 @@
 package com.example.trungnguyen.tancangproject.activity
 
 import android.content.Intent
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.design.widget.TextInputEditText
+import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.AppCompatButton
 import android.view.View
 import com.example.trungnguyen.tancangproject.R
@@ -41,6 +41,7 @@ class SignInActivity : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_in)
+        startActivity(Intent(this, DetailActivity::class.java))
         initViews()
     }
 

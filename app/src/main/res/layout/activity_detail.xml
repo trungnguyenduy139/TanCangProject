@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.trungnguyen.tancangproject.activity.DetailActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingEnd="18dp"
+                android:paddingStart="18dp">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:layout_gravity="top|center"
+                    android:background="@drawable/ic_starting_point"/>
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:layout_width="24dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_more_vert"/>
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:layout_gravity="bottom|center"
+                    android:background="@drawable/ic_destination"/>
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="top"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    android:text="VNDE5"
+                    android:textColor="@color/primaryTextColor"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center"
+                    android:background="@color/secondTextColor"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    android:text="DHL_BAUXEO"
+                    android:textColor="@color/primaryTextColor"/>
+            </LinearLayout>
+
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:src="@drawable/ic_swap_vert"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingEnd="18dp"
+            android:paddingStart="18dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="4dp"
+                        android:text="Số container"
+                        android:textColor="@color/secondTextColor"
+                        android:textSize="12sp"/>
+
+                    <EditText
+                        style="@style/Base.Widget.AppCompat.EditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:enabled="false"
+                        android:text="UNKNOWN"
+                        android:textColor="@color/primaryTextColor"
+                        android:textColorHint="@color/secondTextColor"
+                        android:textSize="16sp"/>
+                </LinearLayout>
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_edit"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="4dp"
+                        android:text="Số seal"
+                        android:textColor="@color/secondTextColor"
+                        android:textSize="12sp"/>
+
+                    <EditText
+                        style="@style/Base.Widget.AppCompat.EditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:enabled="false"
+                        android:text="45GP"
+                        android:textColor="@color/primaryTextColor"
+                        android:textColorHint="@color/secondTextColor"
+                        android:textSize="16sp"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingStart="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="4dp"
+                        android:text="Số booking"
+                        android:textColor="@color/secondTextColor"
+                        android:textSize="12sp"/>
+
+                    <EditText
+                        style="@style/Base.Widget.AppCompat.EditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:enabled="false"
+                        android:text="4043264540"
+                        android:textColor="@color/primaryTextColor"
+                        android:textColorHint="@color/secondTextColor"
+                        android:textSize="16sp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <android.support.v7.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@color/colorAccent"
+            android:text="@string/start"
+            android:textColor="@color/primaryTextColor"/>
+
+    </LinearLayout>
+
+</LinearLayout>
